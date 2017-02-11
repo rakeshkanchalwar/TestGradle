@@ -24,6 +24,6 @@ before_install:
 - chmod +x gradlew
 
 script:
-  - ./gradlew clean publish -i --continue
+  - ./gradlew clean build -i --continue
   - ./gradlew -b finalize.gradle finalize -i
 
