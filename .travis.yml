@@ -1,5 +1,7 @@
 language: java
 
+root : required
+
 jdk:
   - oraclejdk8
 
